@@ -17,7 +17,7 @@
 
         <div class="inline-block">
 
-            <img src= "/18-Week/UX_UI_HW_18/images/UX_Portfolio_Logo.png" width="200" height="200"/>
+            <img src= "images/UX_Portfolio_Logo.png" width="200" height="200"/>
         
         </div>
        
@@ -38,7 +38,7 @@
 
         <div class="content">
             
-            <img src= "/18-Week/UX_UI_HW_18/images/IMG_5908.jpg" id="right" width="350" height="350"/>
+            <img src= "images/IMG_5908.jpg" id="right" width="350" height="350"/>
 
                 <h1>About Myself</h1>
 
@@ -57,7 +57,11 @@
                     <p>Through this, I am given the freedom and flexibility to transform a flat surface into a fluid and interactive space for everyone.</p>
                 </div>
 
-                <button>Download Resume</button>
+                <!--added anchor tag and href, changed myWork section from class to id-->
+                    <a>
+                        <button href="#myWork">View Projects</button>
+                    </a>
+                    <button>Download Resume</button>
 
         </div>
         
@@ -91,12 +95,12 @@
 
     </section>
 
-    <section class="myWork">
+    <section id="myWork">
             <h1>My Work</h1>
             <div class="workGrid">
 
             <div>
-                <img src= "/18-Week/UX_UI_HW_18/images/iPhone 11 Pro/Silver.png" width="260" height="550"/>
+                <img src= "images/iPhone 11 Pro/Silver.png" width="260" height="550"/>
             </div>
 
             <div>
@@ -106,7 +110,7 @@
             </div>
 
             <div>
-                <img src= "/18-Week/UX_UI_HW_18/images/Screen Shot 2021-09-17 at 12.32.10 PM.png" width="500" height="500"/>
+                <img src= "images/Screen Shot 2021-09-17 at 12.32.10 PM.png" width="500" height="500"/>
             </div>
 
             <div>
@@ -133,5 +137,5 @@
     </footer>
 
 </body>
-
+    <script src="js/index.js"></script>
 </html>
