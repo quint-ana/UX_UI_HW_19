@@ -13,7 +13,7 @@
 
 /*logo below*/
 
-  .inline-block img {
+  /*.inline-block img {
       max-width: 100px;
       height: auto;
       padding:1%;
@@ -21,7 +21,7 @@
       display: block;
       margin-right: auto;
       margin-left: 0;
-  }
+  }*/
 
   nav {
       width:97%;
@@ -97,15 +97,30 @@
   flex-direction: column;
 }
 
-.mySkills h1 {
+.mySkills {
+  width:80%;
+  padding:15px;
   margin: auto;
 }
 
 /*<!-- My Work Section Constructed using CSS Grid -->*/
 
+#myWork {
+  width:80%;
+  padding:15px;
+  margin: auto;
+}
+
+#myWork h3 {
+  width:95%;
+  padding:15px;
+  margin: auto;
+}
+
 .workGrid{
   display:grid;
 }
+
 .workGrid div {
   grid-template-rows: 125px 50%;
   grid-template-columns: 125px 50%;
